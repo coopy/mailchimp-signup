@@ -3,7 +3,7 @@
 	verbose="true"
 	bootstrap="tests/bootstrap.php">
 	<testsuites>
-		<testsuite name="mailchimp-for-wordpress">
+		<testsuite name="mailchimp-for-wordpress-custom">
 			<directory>./tests/</directory>
 		</testsuite>
 	</testsuites>

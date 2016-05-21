@@ -1,4 +1,4 @@
-=== MailChimp for WordPress ===
+=== MailChimp for WordPress Custom ===
 Contributors: Ibericode, DvanKooten, hchouhan, lapzor
 Donate link: https://mc4wp.com/#utm_source=wp-plugin-repo&utm_medium=mailchimp-for-wp&utm_campaign=donate-link
 Tags: mailchimp, mc4wp, email, marketing, newsletter, subscribe, widget, mc4wp, contact form 7, woocommerce, buddypress, ibericode, mailchimp forms, mailchimp integrations
@@ -8,19 +8,19 @@ Stable tag: 3.1.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-MailChimp for WordPress, the absolute best. Subscribe your WordPress site visitors to your MailChimp lists, with ease.
+MailChimp for WordPress Custom, the absolute best. Subscribe your WordPress site visitors to your MailChimp lists, with ease.
 
 == Description ==
 
-#### MailChimp for WordPress
+#### MailChimp for WordPress Custom
 
 *Adding sign-up methods for your MailChimp lists to your WordPress site should be easy. With this plugin, it finally is.*
 
-MailChimp for WordPress helps you add more subscribers to your MailChimp lists using various methods. You can create good looking opt-in forms or integrate with any other form on your site, like your comment, contact or checkout form.
+MailChimp for WordPress Custom helps you add more subscribers to your MailChimp lists using various methods. You can create good looking opt-in forms or integrate with any other form on your site, like your comment, contact or checkout form.
 
 [youtube https://www.youtube.com/watch?v=fZCYPnFybqU]
 
-#### Some of the MailChimp for WordPress features
+#### Some of the MailChimp for WordPress Custom features
 
 - Connect with your MailChimp account in seconds.
 
@@ -37,7 +37,7 @@ MailChimp for WordPress helps you add more subscribers to your MailChimp lists u
 	- BuddyPress
 
 - A multitude of available add-on plugins:
-	- [MailChimp for WordPress Premium](https://mc4wp.com/)
+	- [MailChimp for WordPress Custom Premium](https://mc4wp.com/)
 	- [MailChimp Top Bar](https://wordpress.org/plugins/mailchimp-top-bar/)
 	- [MailChimp Activity](https://wordpress.org/plugins/mc4wp-activity/)
 	- [MailChimp User Sync](https://wordpress.org/plugins/mailchimp-sync/)
@@ -48,11 +48,11 @@ MailChimp for WordPress helps you add more subscribers to your MailChimp lists u
 
 - Well documented. Our [knowledge base](https://mc4wp.com/kb/) is updated daily.
 
-- Developer friendly. MailChimp for WordPress is built to be extensible, and comes with a dedicated [code reference for developers](http://developer.mc4wp.com/).
+- Developer friendly. MailChimp for WordPress Custom is built to be extensible, and comes with a dedicated [code reference for developers](http://developer.mc4wp.com/).
 
 <blockquote>
 <h4>Become a Premium user</h4>
-<p>MailChimp for WordPress has a Premium add-on which comes with several additional benefits.</p>
+<p>MailChimp for WordPress Custom has a Premium add-on which comes with several additional benefits.</p>
 <ul>
 <li>Multiple forms (with AJAX)</li>
 <li>eCommerce360 integration for WooCommerce and Easy Digital Downloads</li>
@@ -74,7 +74,7 @@ If you do not yet have a MailChimp account, [creating one is 100% free and only 
 == Installation ==
 
 #### Installing the plugin
-1. In your WordPress admin panel, go to *Plugins > New Plugin*, search for **MailChimp for WordPress** and click "*Install now*"
+1. In your WordPress admin panel, go to *Plugins > New Plugin*, search for **MailChimp for WordPress Custom** and click "*Install now*"
 1. Alternatively, download the plugin and upload the contents of `mailchimp-for-wp.zip` to your plugins directory, which usually is `/wp-content/plugins/`.
 1. Activate the plugin
 1. Set [your MailChimp API key](https://admin.mailchimp.com/account/api) in the plugin settings.
@@ -96,12 +96,12 @@ if( function_exists( 'mc4wp_show_form' ) ) {
 `
 
 #### Need help?
-Please take a look at the [MailChimp for WordPress knowledge base](https://mc4wp.com/kb/#utm_source=wp-plugin-repo&utm_medium=mailchimp-for-wp&utm_campaign=installation-instructions-link) first. If you can't find your answer there, please look through the [MailChimp for WordPress plugin support forums](https://wordpress.org/support/plugin/mailchimp-for-wp) or start your own topic.
+Please take a look at the [MailChimp for WordPress Custom knowledge base](https://mc4wp.com/kb/#utm_source=wp-plugin-repo&utm_medium=mailchimp-for-wp&utm_campaign=installation-instructions-link) first. If you can't find your answer there, please look through the [MailChimp for WordPress Custom plugin support forums](https://wordpress.org/support/plugin/mailchimp-for-wp) or start your own topic.
 
 == Frequently Asked Questions ==
 
 #### More documentation
-More detailed documentation can be found in the [MailChimp for WordPress knowledge base](https://mc4wp.com/kb/#utm_source=wp-plugin-repo&utm_medium=mailchimp-for-wp&utm_campaign=faq).
+More detailed documentation can be found in the [MailChimp for WordPress Custom knowledge base](https://mc4wp.com/kb/#utm_source=wp-plugin-repo&utm_medium=mailchimp-for-wp&utm_campaign=faq).
 
 #### How to display a form in posts or pages?
 Use the `[mc4wp_form]` shortcode.
@@ -148,7 +148,7 @@ Also, please ask them to allow requests to `https://api.mailchimp.com/`.
 
 #### My question is not listed
 
-Please head over to the [MailChimp for WordPress knowledge base](https://mc4wp.com/kb/#utm_source=wp-plugin-repo&utm_medium=mailchimp-for-wp&utm_campaign=faq) for more detailed documentation.
+Please head over to the [MailChimp for WordPress Custom knowledge base](https://mc4wp.com/kb/#utm_source=wp-plugin-repo&utm_medium=mailchimp-for-wp&utm_campaign=faq) for more detailed documentation.
 
 == Other Notes ==
 
@@ -158,19 +158,19 @@ Use the [WordPress.org plugin forums](https://wordpress.org/support/plugin/mailc
 
 If you're a premium user, please use the email address inside the plugin for support as that will guarantee a faster response time.
 
-Please take a look at the [MailChimp for WordPress knowledge base](https://mc4wp.com/kb/#utm_source=wp-plugin-repo&utm_medium=mailchimp-for-wp&utm_campaign=description) as well.
+Please take a look at the [MailChimp for WordPress Custom knowledge base](https://mc4wp.com/kb/#utm_source=wp-plugin-repo&utm_medium=mailchimp-for-wp&utm_campaign=description) as well.
 
 #### Add-on plugins
 
-There are several [add-on plugins for MailChimp for WordPress](https://mc4wp.com/add-ons/#utm_source=wp-plugin-repo&utm_medium=mailchimp-for-wp&utm_campaign=description), which help you get even more out of your site.
+There are several [add-on plugins for MailChimp for WordPress Custom](https://mc4wp.com/add-ons/#utm_source=wp-plugin-repo&utm_medium=mailchimp-for-wp&utm_campaign=description), which help you get even more out of your site.
 
 #### Translations
 
-The plugin is translated using Transifex. If you want to help out, please head over to the [translation project on Transifex](https://www.transifex.com/projects/p/mailchimp-for-wordpress/).
+The plugin is translated using Transifex. If you want to help out, please head over to the [translation project on Transifex](https://www.transifex.com/projects/p/mailchimp-for-wordpress-custom/).
 
 #### Development
 
-MailChimp for WordPress is being developed on GitHub. If you want to collaborate, please look at [ibericode/mailchimp-for-wordpress](https://github.com/ibericode/mailchimp-for-wordpress).
+MailChimp for WordPress Custom is being developed on GitHub. If you want to collaborate, please look at [ibericode/mailchimp-for-wordpress-custom](https://github.com/ibericode/mailchimp-for-wordpress-custom).
 
 == Screenshots ==
 
@@ -428,7 +428,7 @@ Added `mc4wp_use_sslverify` filter to disable or explicitly enable SSL certifica
 
 #### 3.0.0 & 3.0.1 - November 23, 2015
 
-Version 3.0 is a total revamp of the plugin. For a quick overview of the changes, please [read this post on our blog](https://mc4wp.com/blog/whats-new-in-mailchimp-for-wordpress-the-big-three-o/).
+Version 3.0 is a total revamp of the plugin. For a quick overview of the changes, please [read this post on our blog](https://mc4wp.com/blog/whats-new-in-mailchimp-for-wordpress-custom-the-big-three-o/).
 
 Before upgrading, please go through the [upgrade guide](https://mc4wp.com/kb/upgrading-to-3-0/) as some things have changed.
 
@@ -468,7 +468,7 @@ Before upgrading, please go through the [upgrade guide](https://mc4wp.com/kb/upg
 **Improvements**
 
 - Usage tracking is now scheduled once a week (instead of daily).
-- Preparations for [the upcoming MailChimp for WordPress version 3.0 release](https://mc4wp.com/blog/breaking-backwards-compatibility-in-version-3-0/).
+- Preparations for [the upcoming MailChimp for WordPress Custom version 3.0 release](https://mc4wp.com/blog/breaking-backwards-compatibility-in-version-3-0/).
 - Tested compatibility with WordPress 4.4
 
 #### 2.3.17 - October 22, 2015
@@ -707,11 +707,11 @@ Before upgrading, please go through the [upgrade guide](https://mc4wp.com/kb/upg
 
 **Fixes**
 
-- Menu item for settings page not appearing on Google App Engine ([#88](https://github.com/ibericode/mailchimp-for-wordpress/issues/88))
+- Menu item for settings page not appearing on Google App Engine ([#88](https://github.com/ibericode/mailchimp-for-wordpress-custom/issues/88))
 
 **Improvements**
 
-- Updated Italian, Russian & Turkish translations. [Want to help translate the plugin? Full translations get a free Pro license](https://www.transifex.com/projects/p/mailchimp-for-wordpress/).
+- Updated Italian, Russian & Turkish translations. [Want to help translate the plugin? Full translations get a free Pro license](https://www.transifex.com/projects/p/mailchimp-for-wordpress-custom/).
 
 #### 2.2.8 - March 24, 2015
 
@@ -744,8 +744,8 @@ Before upgrading, please go through the [upgrade guide](https://mc4wp.com/kb/upg
 
 **Additions**
 
-- Added [mc4wp_form_success](https://github.com/ibericode/mailchimp-for-wordpress/blob/06f0c833027f347a288d2cb9805e0614767409b6/includes/class-form-request.php#L292-L301) action hook to hook into successful sign-ups
-- Added [mc4wp_form_data](https://github.com/ibericode/mailchimp-for-wordpress/blob/06f0c833027f347a288d2cb9805e0614767409b6/includes/class-form-request.php#L138-L142) filter hook to modify all form data before processing
+- Added [mc4wp_form_success](https://github.com/ibericode/mailchimp-for-wordpress-custom/blob/06f0c833027f347a288d2cb9805e0614767409b6/includes/class-form-request.php#L292-L301) action hook to hook into successful sign-ups
+- Added [mc4wp_form_data](https://github.com/ibericode/mailchimp-for-wordpress-custom/blob/06f0c833027f347a288d2cb9805e0614767409b6/includes/class-form-request.php#L138-L142) filter hook to modify all form data before processing
 
 
 #### 2.2.6 - February 26, 2015
@@ -801,11 +801,11 @@ A huge thank you to [Stefan Oderbolz](http://metaodi.ch/) for various fixed and 
 
 - Moved third-party scripts to their own directory for easier exclusion
 - All code is now adhering to the WP Code Standards
-- Updated [Dutch, German, Spanish, Hungarian, French, Italian and Turkish translations](https://www.transifex.com/projects/p/mailchimp-for-wordpress/).
+- Updated [Dutch, German, Spanish, Hungarian, French, Italian and Turkish translations](https://www.transifex.com/projects/p/mailchimp-for-wordpress-custom/).
 
 **Additions**
 
-- Now showing a heads up when at limit of 100 MailChimp lists. ([#71](https://github.com/ibericode/mailchimp-for-wordpress/issues/71))
+- Now showing a heads up when at limit of 100 MailChimp lists. ([#71](https://github.com/ibericode/mailchimp-for-wordpress-custom/issues/71))
 - Added `wpml-config.xml` file for better WPML compatibility
 - Added filter `mc4wp_menu_items` for adding & removing menu items from add-ons
 

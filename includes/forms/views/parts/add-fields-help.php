@@ -35,7 +35,7 @@
 			</li>
 			<li>
 				<p>
-					<?php echo __( 'Click the following button to have MailChimp for WordPress pick up on your changes.', 'mailchimp-for-wp' ); ?>
+					<?php echo __( 'Click the following button to have MailChimp for WordPress Custom pick up on your changes.', 'mailchimp-for-wp' ); ?>
 				</p>
 
 				<p>

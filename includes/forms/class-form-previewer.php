@@ -99,7 +99,7 @@ class MC4WP_Form_Previewer {
 					'post_name' =>  self::PAGE_SLUG,
 					'post_type' => 'page',
 					'post_status' => 'draft',
-					'post_title' => 'MailChimp for WordPress: Form Preview',
+					'post_title' => 'MailChimp for WordPress Custom: Form Preview',
 					'post_content' => '[mc4wp_form]'
 				)
 			);

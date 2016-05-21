@@ -1,5 +1,5 @@
 {
-  "name": "ibericode/mailchimp-for-wordpress",
+  "name": "ibericode/mailchimp-for-wordpress-custom",
   "description": "MailChimp plugin for WordPress",
   "keywords": ["wordpress", "mailchimp"],
   "homepage": "https://mc4wp.com/",
@@ -13,9 +13,9 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/ibericode/mailchimp-for-wordpress/issues",
+    "issues": "https://github.com/ibericode/mailchimp-for-wordpress-custom/issues",
     "forum": "https://wordpress.org/support/plugin/mailchimp-for-wp",
-    "source": "https://github.com/ibericode/mailchimp-for-wordpress"
+    "source": "https://github.com/ibericode/mailchimp-for-wordpress-custom"
   },
   "require": {
     "php": ">=5.2.14",

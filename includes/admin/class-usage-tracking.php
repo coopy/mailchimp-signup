@@ -142,7 +142,7 @@ class MC4WP_Usage_Tracking {
 	}
 
 	/**
-	 * Returns the MailChimp for WordPress version
+	 * Returns the MailChimp for WordPress Custom version
 	 *
 	 * @return string
 	 */

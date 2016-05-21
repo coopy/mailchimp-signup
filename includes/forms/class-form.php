@@ -604,7 +604,7 @@ class MC4WP_Form {
 		$required_fields_string = strtoupper( $this->settings['required_fields'] );
 
 		// remove array-formatted fields
-		// workaround for #261 (https://github.com/ibericode/mailchimp-for-wordpress/issues/261)
+		// workaround for #261 (https://github.com/ibericode/mailchimp-for-wordpress-custom/issues/261)
 		$required_fields_string = preg_replace( '/\[\w+\]/', '', $required_fields_string );
 
 		// turn into an array

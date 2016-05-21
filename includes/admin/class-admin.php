@@ -253,7 +253,7 @@ class MC4WP_Admin {
 
 		$prefix = 'mailchimp-for-wp';
 
-		// only load asset files on the MailChimp for WordPress settings pages
+		// only load asset files on the MailChimp for WordPress Custom settings pages
 		if( empty( $_GET['page'] ) || strpos( $_GET['page'], $prefix ) !== 0 ) {
 			return false;
 		}
@@ -288,7 +288,7 @@ class MC4WP_Admin {
 		);
 
 		/**
-		 * Hook to enqueue your own custom assets on the MailChimp for WordPress setting pages.
+		 * Hook to enqueue your own custom assets on the MailChimp for WordPress Custom setting pages.
 		 *
 		 * @since 3.0
 		 *
@@ -327,7 +327,7 @@ class MC4WP_Admin {
 		$capability = apply_filters( 'mc4wp_settings_cap', $capability );
 
 		/**
-		 * Filters the required user capability to access the MailChimp for WordPress' settings pages, view the dashboard widgets.
+		 * Filters the required user capability to access the MailChimp for WordPress Custom' settings pages, view the dashboard widgets.
 		 *
 		 * Defaults to `manage_options`
 		 *
@@ -407,7 +407,7 @@ class MC4WP_Admin {
 		$capability = ! empty( $item['capability'] ) ? $item['capability'] : $this->get_required_capability();
 
 		// register page
-		$hook = add_submenu_page( $parent_slug, $item['title'] . ' - MailChimp for WordPress', $item['text'], $capability, $slug, $item['callback'] );
+		$hook = add_submenu_page( $parent_slug, $item['title'] . ' - MailChimp for WordPress Custom', $item['text'], $capability, $slug, $item['callback'] );
 
 		// register callback for loading this page, if given
 		if( array_key_exists( 'load_callback', $item ) ) {
@@ -485,7 +485,7 @@ class MC4WP_Admin {
 		}
 
 		echo '<div class="notice notice-warning" style="position: relative; padding-right: 36px;">';
-		echo '<p>' . sprintf( __( 'To get started with MailChimp for WordPress, please <a href="%s">enter your MailChimp API key on the settings page of the plugin</a>.', 'mailchimp-for-wp' ), admin_url( 'admin.php?page=mailchimp-for-wp' ) ) . '</p>';
+		echo '<p>' . sprintf( __( 'To get started with MailChimp for WordPress Custom, please <a href="%s">enter your MailChimp API key on the settings page of the plugin</a>.', 'mailchimp-for-wp' ), admin_url( 'admin.php?page=mailchimp-for-wp' ) ) . '</p>';
 		echo '<form method="post"><input type="hidden" name="_mc4wp_action" value="dismiss_api_key_notice" /><button type="submit" class="notice-dismiss"><span class="screen-reader-text">Dismiss this notice.</span></button></form>';
 		echo '</div>';
 	}

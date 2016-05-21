@@ -285,12 +285,12 @@ class MC4WP_Form_Element {
 		}
 
 		// Start building content string
-		$opening_html = '<!-- MailChimp for WordPress v' . MC4WP_VERSION . ' - https://wordpress.org/plugins/mailchimp-for-wp/ -->';
+		$opening_html = '<!-- MailChimp for WordPress Custom v' . MC4WP_VERSION . ' - https://wordpress.org/plugins/mailchimp-for-wp/ -->';
 		$opening_html .= '<form '. $this->get_form_element_attributes() .'>';
 		$before_fields = $this->get_html_before_fields();
 		$fields = '';
 		$after_fields = $this->get_html_after_fields();
-		$closing_html = '</form><!-- / MailChimp for WordPress Plugin -->';
+		$closing_html = '</form><!-- / MailChimp for WordPress Custom Plugin -->';
 
 		if( ! $this->is_submitted
 		    || ! $this->form->settings['hide_after_success']

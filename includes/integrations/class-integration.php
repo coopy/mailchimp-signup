@@ -228,7 +228,7 @@ abstract class MC4WP_Integration {
 
 		ob_start();
 		?>
-		<!-- MailChimp for WordPress v<?php echo MC4WP_VERSION; ?> - https://mc4wp.com/ -->
+		<!-- MailChimp for WordPress Custom v<?php echo MC4WP_VERSION; ?> - https://mc4wp.com/ -->
 
 		<?php do_action( 'mc4wp_integration_before_checkbox_wrapper', $this ); ?>
 		<?php do_action( 'mc4wp_integration_'. $this->slug .'_before_checkbox_wrapper', $this ); ?>
@@ -245,7 +245,7 @@ abstract class MC4WP_Integration {
 		<?php do_action( 'mc4wp_integration_after_checkbox_wrapper', $this ); ?>
 		<?php do_action( 'mc4wp_integration_'. $this->slug .'_after_checkbox_wrapper', $this ); ?>
 
-		<!-- / MailChimp for WordPress -->
+		<!-- / MailChimp for WordPress Custom -->
 		<?php
 		$html = ob_get_clean();
 		return $html;

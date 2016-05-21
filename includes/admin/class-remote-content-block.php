@@ -3,7 +3,7 @@
 /**
  * Class MC4WP_Remote_Content_Block
  *
- * @package MailChimp for WordPress
+ * @package MailChimp for WordPress Custom
  * @author Danny van Kooten
  * @ignore
  */

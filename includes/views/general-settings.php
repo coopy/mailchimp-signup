@@ -5,7 +5,7 @@ defined( 'ABSPATH' ) or exit;
 
 	<p class="breadcrumbs">
 		<span class="prefix"><?php echo __( 'You are here: ', 'mailchimp-for-wp' ); ?></span>
-		<span class="current-crumb"><strong>MailChimp for WordPress</strong></span>
+		<span class="current-crumb"><strong>MailChimp for WordPress Custom</strong></span>
 	</p>
 
 

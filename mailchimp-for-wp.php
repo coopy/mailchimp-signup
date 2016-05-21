@@ -1,8 +1,8 @@
 <?php
 /*
-Plugin Name: MailChimp for WordPress
+Plugin Name: MailChimp for WordPress Custom
 Plugin URI: https://mc4wp.com/#utm_source=wp-plugin&utm_medium=mailchimp-for-wp&utm_campaign=plugins-page
-Description: MailChimp for WordPress by ibericode. Adds various highly effective sign-up methods to your site.
+Description: MailChimp for WordPress Custom by ibericode. Adds various highly effective sign-up methods to your site.
 Version: 3.1.7
 Author: ibericode
 Author URI: https://ibericode.com/
@@ -10,7 +10,7 @@ Text Domain: mailchimp-for-wp
 Domain Path: /languages
 License: GPL v3
 
-MailChimp for WordPress
+MailChimp for WordPress Custom
 Copyright (C) 2012-2016, Danny van Kooten, hi@dannyvankooten.com
 
 This program is free software: you can redistribute it and/or modify
@@ -31,7 +31,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 defined( 'ABSPATH' ) or exit;
 
 /**
- * Bootstrap the MailChimp for WordPress plugin
+ * Bootstrap the MailChimp for WordPress Custom plugin
  *
  * @ignore
  * @access private

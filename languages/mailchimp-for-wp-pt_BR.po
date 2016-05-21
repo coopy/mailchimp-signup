@@ -1,5 +1,5 @@
-# Copyright (C) 2015 MailChimp for WordPress
-# This file is distributed under the same license as the MailChimp for WordPress package.
+# Copyright (C) 2015 MailChimp for WordPress Custom
+# This file is distributed under the same license as the MailChimp for WordPress Custom package.
 # Translators:
 # Arlei Santos <contato@attas.com.br>, 2016
 # Douglas de Araujo <douglas@ludicaeventos.com.br>, 2015
@@ -14,12 +14,12 @@
 # Sergio Nauffal <sergio.xcom@gmail.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: MailChimp for WordPress\n"
+"Project-Id-Version: MailChimp for WordPress Custom\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mailchimp-for-wp\n"
 "POT-Creation-Date: 2015-11-30 10:15:18+00:00\n"
 "PO-Revision-Date: 2016-04-11 17:47+0000\n"
 "Last-Translator: Fabricio Corrêa <fabricionthweb@gmail.com>\n"
-"Language-Team: Portuguese (Brazil) (http://www.transifex.com/ibericode/mailchimp-for-wordpress/language/pt_BR/)\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/ibericode/mailchimp-for-wordpress-custom/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -106,7 +106,7 @@ msgid "MailChimp"
 msgstr "MailChimp"
 
 #: includes/admin/class-ads.php:33
-msgid "Upgrade to MailChimp for WordPress Pro"
+msgid "Upgrade to MailChimp for WordPress Custom Pro"
 msgstr "Atualize para MailChimp para WordPress Pro"
 
 #: includes/admin/class-ads.php:41
@@ -232,7 +232,7 @@ msgid "MailChimp Sign-Up Form"
 msgstr "Formulário de inscrição MailChimp"
 
 #: includes/forms/class-widget.php:32
-msgid "Displays your MailChimp for WordPress sign-up form"
+msgid "Displays your MailChimp for WordPress Custom sign-up form"
 msgstr "Exibe um dos seus formulários MailChimp para WordPress"
 
 #: includes/forms/class-widget.php:75
@@ -241,7 +241,7 @@ msgstr "Título:"
 
 #: includes/forms/class-widget.php:92
 msgid ""
-"You can edit your sign-up form in the <a href=\"%s\">MailChimp for WordPress"
+"You can edit your sign-up form in the <a href=\"%s\">MailChimp for WordPress Custom"
 " form settings</a>."
 msgstr "Você pode editar o seu formulário de inscrição em \"Configurações de formulário do MailChimp para WordPress\"."
 
@@ -337,7 +337,7 @@ msgstr "Editar campos para"
 
 #: includes/forms/views/parts/add-fields-help.php:38
 msgid ""
-"Click the following button to have MailChimp for WordPress pick up on your "
+"Click the following button to have MailChimp for WordPress Custom pick up on your "
 "changes."
 msgstr "Clique no botão a seguir para que o MailChimp para WordPress possa registrar suas alterações."
 
@@ -793,7 +793,7 @@ msgstr "Isto é o que nós monitoramos."
 
 #: includes/views/parts/admin-footer.php:11
 msgid ""
-"MailChimp for WordPress is in need of translations. Is the plugin not "
+"MailChimp for WordPress Custom is in need of translations. Is the plugin not "
 "translated in your language or do you spot errors with the current "
 "translations? Helping out is easy! Head over to <a href=\"%s\">the "
 "translation project and click \"help translate\"</a>."
@@ -864,8 +864,8 @@ msgid "Order #%d"
 msgstr "Pedido #%d"
 
 #. Plugin Name of the plugin/theme
-msgid "MailChimp for WordPress"
-msgstr "MailChimp for WordPress"
+msgid "MailChimp for WordPress Custom"
+msgstr "MailChimp for WordPress Custom"
 
 #. Plugin URI of the plugin/theme
 msgid ""
@@ -875,7 +875,7 @@ msgstr "https://mc4wp.com/#utm_source=wp-plugin&utm_medium=mailchimp-for-wp&utm_
 
 #. Description of the plugin/theme
 msgid ""
-"MailChimp for WordPress by ibericode. Adds various highly effective sign-up "
+"MailChimp for WordPress Custom by ibericode. Adds various highly effective sign-up "
 "methods to your site."
 msgstr "MailChimp para WordPress por ibericode. Adiciona vários métodos altamente eficazes de inscrição para o seu site."
 

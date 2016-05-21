@@ -1,8 +1,8 @@
-# Copyright (C) 2015 MailChimp for WordPress
-# This file is distributed under the same license as the MailChimp for WordPress package.
+# Copyright (C) 2015 MailChimp for WordPress Custom
+# This file is distributed under the same license as the MailChimp for WordPress Custom package.
 msgid ""
 msgstr ""
-"Project-Id-Version: MailChimp for WordPress 3.0.2\n"
+"Project-Id-Version: MailChimp for WordPress Custom 3.0.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mailchimp-for-wp\n"
 "POT-Creation-Date: 2015-11-30 10:15:18+00:00\n"
 "MIME-Version: 1.0\n"
@@ -92,7 +92,7 @@ msgid "MailChimp"
 msgstr ""
 
 #: includes/admin/class-ads.php:33
-msgid "Upgrade to MailChimp for WordPress Pro"
+msgid "Upgrade to MailChimp for WordPress Custom Pro"
 msgstr ""
 
 #: includes/admin/class-ads.php:41
@@ -218,7 +218,7 @@ msgid "MailChimp Sign-Up Form"
 msgstr ""
 
 #: includes/forms/class-widget.php:32
-msgid "Displays your MailChimp for WordPress sign-up form"
+msgid "Displays your MailChimp for WordPress Custom sign-up form"
 msgstr ""
 
 #: includes/forms/class-widget.php:75
@@ -227,7 +227,7 @@ msgstr ""
 
 #: includes/forms/class-widget.php:92
 msgid ""
-"You can edit your sign-up form in the <a href=\"%s\">MailChimp for WordPress "
+"You can edit your sign-up form in the <a href=\"%s\">MailChimp for WordPress Custom "
 "form settings</a>."
 msgstr ""
 
@@ -323,7 +323,7 @@ msgstr ""
 
 #: includes/forms/views/parts/add-fields-help.php:38
 msgid ""
-"Click the following button to have MailChimp for WordPress pick up on your "
+"Click the following button to have MailChimp for WordPress Custom pick up on your "
 "changes."
 msgstr ""
 
@@ -776,7 +776,7 @@ msgstr ""
 
 #: includes/views/parts/admin-footer.php:11
 msgid ""
-"MailChimp for WordPress is in need of translations. Is the plugin not "
+"MailChimp for WordPress Custom is in need of translations. Is the plugin not "
 "translated in your language or do you spot errors with the current "
 "translations? Helping out is easy! Head over to <a href=\"%s\">the "
 "translation project and click \"help translate\"</a>."
@@ -847,7 +847,7 @@ msgid "Order #%d"
 msgstr ""
 
 #. Plugin Name of the plugin/theme
-msgid "MailChimp for WordPress"
+msgid "MailChimp for WordPress Custom"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
@@ -858,7 +858,7 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"MailChimp for WordPress by ibericode. Adds various highly effective sign-up "
+"MailChimp for WordPress Custom by ibericode. Adds various highly effective sign-up "
 "methods to your site."
 msgstr ""
 

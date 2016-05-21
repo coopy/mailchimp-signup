@@ -52,9 +52,9 @@ class MC4WP_Admin_Ads {
 		echo '<p class="help">';
 
 		if( rand( 1, 2 ) === 1 ) {
-			echo sprintf( __( 'Be notified whenever someone subscribes? <a href="%s">MailChimp for WordPress Premium</a> allows you to set up email notifications for your forms.', 'mailchimp-for-wp' ), 'https://mc4wp.com/features/#utm_source=wp-plugin&utm_medium=mailchimp-for-wp&utm_campaign=footer-link' );
+			echo sprintf( __( 'Be notified whenever someone subscribes? <a href="%s">MailChimp for WordPress Custom Premium</a> allows you to set up email notifications for your forms.', 'mailchimp-for-wp' ), 'https://mc4wp.com/features/#utm_source=wp-plugin&utm_medium=mailchimp-for-wp&utm_campaign=footer-link' );
 		} else {
-			echo sprintf( __( 'Increased conversions? <a href="%s">MailChimp for WordPress Premium</a> submits forms without reloading the entire page, resulting in a much better experience for your visitors.', 'mailchimp-for-wp' ), 'https://mc4wp.com/features/#utm_source=wp-plugin&utm_medium=mailchimp-for-wp&utm_campaign=form-settings-link' );
+			echo sprintf( __( 'Increased conversions? <a href="%s">MailChimp for WordPress Custom Premium</a> submits forms without reloading the entire page, resulting in a much better experience for your visitors.', 'mailchimp-for-wp' ), 'https://mc4wp.com/features/#utm_source=wp-plugin&utm_medium=mailchimp-for-wp&utm_campaign=form-settings-link' );
 		}
 
 		echo '</p>';
@@ -81,7 +81,7 @@ class MC4WP_Admin_Ads {
 
 			// WPML & Polylang specific message
 			if( defined( 'ICL_LANGUAGE_CODE' ) ) {
-				echo '<p class="help">' . sprintf( __( 'Do you want translated forms for all of your languages? <a href="%s">Try MailChimp for WordPress Premium</a>, which does just that plus more.', 'mailchimp-for-wp' ), 'https://mc4wp.com/features/#utm_source=wp-plugin&utm_medium=mailchimp-for-wp&utm_campaign=footer-link' ) . '</p>';
+				echo '<p class="help">' . sprintf( __( 'Do you want translated forms for all of your languages? <a href="%s">Try MailChimp for WordPress Custom Premium</a>, which does just that plus more.', 'mailchimp-for-wp' ), 'https://mc4wp.com/features/#utm_source=wp-plugin&utm_medium=mailchimp-for-wp&utm_campaign=footer-link' ) . '</p>';
 				return;
 			}
 
@@ -155,7 +155,7 @@ class MC4WP_Admin_Ads {
 
 		echo '<div class="medium-margin">';
 		echo '<h3>eCommerce360</h3>';
-		echo sprintf( '<p>' . __( 'Want to track all your %s sales in MailChimp so you can send emails based on the purchases of your subscribers? <a href="%s">Upgrade to MailChimp for WordPress Premium</a> or <a href="%s">read more about eCommerce360</a>.', 'mailchimp-for-wp' ) . '</p>', $shop, 'https://mc4wp.com/features/#utm_source=wp-plugin&utm_medium=mailchimp-for-wp&utm_campaign=other-settings-link', 'https://mc4wp.com/kb/what-is-ecommerce360/#utm_source=wp-plugin&utm_medium=mailchimp-for-wp&utm_campaign=other-settings-link' );
+		echo sprintf( '<p>' . __( 'Want to track all your %s sales in MailChimp so you can send emails based on the purchases of your subscribers? <a href="%s">Upgrade to MailChimp for WordPress Custom Premium</a> or <a href="%s">read more about eCommerce360</a>.', 'mailchimp-for-wp' ) . '</p>', $shop, 'https://mc4wp.com/features/#utm_source=wp-plugin&utm_medium=mailchimp-for-wp&utm_campaign=other-settings-link', 'https://mc4wp.com/kb/what-is-ecommerce360/#utm_source=wp-plugin&utm_medium=mailchimp-for-wp&utm_campaign=other-settings-link' );
 		echo '</div>';
 	}
 

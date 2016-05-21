@@ -245,7 +245,7 @@ Added `mc4wp_use_sslverify` filter to disable or explicitly enable SSL certifica
 
 #### 3.0.0 & 3.0.1 - November 23, 2015
 
-Version 3.0 is a total revamp of the plugin. For a quick overview of the changes, please [read this post on our blog](https://mc4wp.com/blog/whats-new-in-mailchimp-for-wordpress-the-big-three-o/).
+Version 3.0 is a total revamp of the plugin. For a quick overview of the changes, please [read this post on our blog](https://mc4wp.com/blog/whats-new-in-mailchimp-for-wordpress-custom-the-big-three-o/).
 
 Before upgrading, please go through the [upgrade guide](https://mc4wp.com/kb/upgrading-to-3-0/) as some things have changed.
 
@@ -285,7 +285,7 @@ Before upgrading, please go through the [upgrade guide](https://mc4wp.com/kb/upg
 **Improvements**
 
 - Usage tracking is now scheduled once a week (instead of daily).
-- Preparations for [the upcoming MailChimp for WordPress version 3.0 release](https://mc4wp.com/blog/breaking-backwards-compatibility-in-version-3-0/).
+- Preparations for [the upcoming MailChimp for WordPress Custom version 3.0 release](https://mc4wp.com/blog/breaking-backwards-compatibility-in-version-3-0/).
 - Tested compatibility with WordPress 4.4
 
 #### 2.3.17 - October 22, 2015
@@ -524,11 +524,11 @@ Before upgrading, please go through the [upgrade guide](https://mc4wp.com/kb/upg
 
 **Fixes**
 
-- Menu item for settings page not appearing on Google App Engine ([#88](https://github.com/ibericode/mailchimp-for-wordpress/issues/88))
+- Menu item for settings page not appearing on Google App Engine ([#88](https://github.com/ibericode/mailchimp-for-wordpress-custom/issues/88))
 
 **Improvements**
 
-- Updated Italian, Russian & Turkish translations. [Want to help translate the plugin? Full translations get a free Pro license](https://www.transifex.com/projects/p/mailchimp-for-wordpress/).
+- Updated Italian, Russian & Turkish translations. [Want to help translate the plugin? Full translations get a free Pro license](https://www.transifex.com/projects/p/mailchimp-for-wordpress-custom/).
 
 #### 2.2.8 - March 24, 2015
 
@@ -561,8 +561,8 @@ Before upgrading, please go through the [upgrade guide](https://mc4wp.com/kb/upg
 
 **Additions**
 
-- Added [mc4wp_form_success](https://github.com/ibericode/mailchimp-for-wordpress/blob/06f0c833027f347a288d2cb9805e0614767409b6/includes/class-form-request.php#L292-L301) action hook to hook into successful sign-ups
-- Added [mc4wp_form_data](https://github.com/ibericode/mailchimp-for-wordpress/blob/06f0c833027f347a288d2cb9805e0614767409b6/includes/class-form-request.php#L138-L142) filter hook to modify all form data before processing
+- Added [mc4wp_form_success](https://github.com/ibericode/mailchimp-for-wordpress-custom/blob/06f0c833027f347a288d2cb9805e0614767409b6/includes/class-form-request.php#L292-L301) action hook to hook into successful sign-ups
+- Added [mc4wp_form_data](https://github.com/ibericode/mailchimp-for-wordpress-custom/blob/06f0c833027f347a288d2cb9805e0614767409b6/includes/class-form-request.php#L138-L142) filter hook to modify all form data before processing
 
 
 #### 2.2.6 - February 26, 2015
@@ -618,11 +618,11 @@ A huge thank you to [Stefan Oderbolz](http://metaodi.ch/) for various fixed and 
 
 - Moved third-party scripts to their own directory for easier exclusion
 - All code is now adhering to the WP Code Standards
-- Updated [Dutch, German, Spanish, Hungarian, French, Italian and Turkish translations](https://www.transifex.com/projects/p/mailchimp-for-wordpress/).
+- Updated [Dutch, German, Spanish, Hungarian, French, Italian and Turkish translations](https://www.transifex.com/projects/p/mailchimp-for-wordpress-custom/).
 
 **Additions**
 
-- Now showing a heads up when at limit of 100 MailChimp lists. ([#71](https://github.com/ibericode/mailchimp-for-wordpress/issues/71))
+- Now showing a heads up when at limit of 100 MailChimp lists. ([#71](https://github.com/ibericode/mailchimp-for-wordpress-custom/issues/71))
 - Added `wpml-config.xml` file for better WPML compatibility
 - Added filter `mc4wp_menu_items` for adding & removing menu items from add-ons
 

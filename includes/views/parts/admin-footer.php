@@ -8,7 +8,7 @@ function __mc4wp_admin_translation_notice() {
 		return;
 	}
 
-	echo '<p class="help">' . sprintf( __( 'MailChimp for WordPress is in need of translations. Is the plugin not translated in your language or do you spot errors with the current translations? Helping out is easy! Head over to <a href="%s">the translation project and click "help translate"</a>.', 'mailchimp-for-wp' ), 'https://www.transifex.com/projects/p/mailchimp-for-wordpress/' ) . '</p>';
+	echo '<p class="help">' . sprintf( __( 'MailChimp for WordPress Custom is in need of translations. Is the plugin not translated in your language or do you spot errors with the current translations? Helping out is easy! Head over to <a href="%s">the translation project and click "help translate"</a>.', 'mailchimp-for-wp' ), 'https://www.transifex.com/projects/p/mailchimp-for-wordpress-custom/' ) . '</p>';
 }
 
 /**
@@ -20,7 +20,7 @@ function __mc4wp_admin_github_notice() {
 		return;
 	}
 
-	echo '<p class="help">Developer? Follow or contribute to the <a href="https://github.com/ibericode/mailchimp-for-wordpress">MailChimp for WordPress project on GitHub</a>.</p>';
+	echo '<p class="help">Developer? Follow or contribute to the <a href="https://github.com/ibericode/mailchimp-for-wordpress-custom">MailChimp for WordPress Custom project on GitHub</a>.</p>';
 
 }
 
@@ -41,7 +41,7 @@ add_action( 'mc4wp_admin_footer', '__mc4wp_admin_disclaimer_notice', 80 );
 	<?php
 
 	/**
-	 * Runs while printing the footer of every MailChimp for WordPress settings page.
+	 * Runs while printing the footer of every MailChimp for WordPress Custom settings page.
 	 *
 	 * @since 3.0
 	 */

@@ -2,7 +2,7 @@
 host = https://www.transifex.com
 minimum_perc=50
 
-[mailchimp-for-wordpress.mailchimp-for-wp]
+[mailchimp-for-wordpress-custom.mailchimp-for-wp]
 file_filter = languages/mailchimp-for-wp-<lang>.po
 source_file = languages/mailchimp-for-wp.pot
 source_lang = en_US

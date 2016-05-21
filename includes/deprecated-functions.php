@@ -9,12 +9,12 @@
  * @ignore
  */
 function mc4wp_checkbox() {
-	_deprecated_function( __FUNCTION__, 'MailChimp for WordPress v3.0' );
+	_deprecated_function( __FUNCTION__, 'MailChimp for WordPress Custom v3.0' );
 	mc4wp_get_integration('wp-comment-form')->output_checkbox();
 }
 
 /**
- * Echoes a MailChimp for WordPress form
+ * Echoes a MailChimp for WordPress Custom form
  *
  * @ignore
  * @since 1.0
@@ -27,7 +27,7 @@ function mc4wp_checkbox() {
  *
  */
 function mc4wp_form( $id = 0, $attributes = array() ) {
-	_deprecated_function( __FUNCTION__, 'MailChimp for WordPress v3.0', 'mc4wp_show_form' );
+	_deprecated_function( __FUNCTION__, 'MailChimp for WordPress Custom v3.0', 'mc4wp_show_form' );
 	return mc4wp_show_form( $id, $attributes );
 }
 
