@@ -326,3 +326,38 @@
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(92, 184, 92, 0.15);
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(92, 184, 92, 0.15);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(92, 184, 92, 0.15); }
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .mc4wp-homepage {
+    width: 320px; } }
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .mc4wp-homepage {
+    width: 540px; } }
+
+@media only screen and (min-width: 1024px) {
+  .mc4wp-homepage {
+    width: 768px; } }
+
+.mc4wp-homepage {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 768px;
+  margin: 0 auto; }
+  .mc4wp-homepage label {
+    display: inline-block;
+    font-weight: normal;
+    margin-right: 2%;
+    max-width: 27%; }
+  .mc4wp-homepage input {
+    font-family: Witch-Baby-Regular, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase; }
+  .mc4wp-homepage input[type=email] {
+    display: inline-block;
+    margin-right: 2%;
+    width: 47%; }
+  .mc4wp-homepage .mc4wp-submit-container {
+    display: inline-block;
+    max-width: 19%; }
