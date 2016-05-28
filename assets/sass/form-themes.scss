@@ -143,15 +143,21 @@
 	@include form-theme-variant(#5cb85c);
 }
 
-@media only screen and (min-width: 320px) and (max-width: 767px) {
+@media only screen and (min-width: 320px) and (max-width: 449px) {
   .mc4wp-homepage {
       width: 320px;
   }
 }
 
+@media only screen and (min-width: 450px) and (max-width: 767px) {
+  .mc4wp-homepage {
+      width: 430px;
+  }
+}
+
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .mc4wp-homepage {
-      width: 640px;
+      width: 748px;
   }
 }
 
@@ -170,7 +176,9 @@
     display: inline-block;
     font-weight: normal;
     margin-right: 2%;
-    max-width: 27%;
+    max-width: 37%;
+    position: relative;
+    top: 4px;
   }
 
   input {
@@ -182,7 +190,7 @@
   input[type=email] {
     display: inline-block;
     margin-right: 2%;
-    width: 47%;
+    width: 37%;
   }
 
   .mc4wp-submit-container {
