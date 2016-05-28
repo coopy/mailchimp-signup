@@ -151,19 +151,19 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .mc4wp-homepage {
-      width: 540px;
+      width: 640px;
   }
 }
 
 @media only screen and (min-width: 1024px) {
   .mc4wp-homepage {
-      width: 768px;
+      width: 900px;
   }
 }
 
 .mc4wp-homepage {
   @include vendor-prefix(box-sizing, border-box);
-  max-width: 768px;
+  max-width: 900px;
   margin: 0 auto;
 
   label {
